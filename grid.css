@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #2d0b59;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  opacity: 0.8;
+}
+
+/* SECTIONS */
+.section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+.desc {
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+/* COLUMN GRID */
+.column-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.box {
+  background: #5a2d9c;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* MODULAR GRID */
+.modular-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* BASELINE GRID */
+.baseline p {
+  margin-bottom: 16px;
+}
+
+/* PRINCIPLES */
+.principles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #7a3fc4;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  opacity: 0.7;
+}
